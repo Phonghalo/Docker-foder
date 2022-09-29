@@ -1,0 +1,22 @@
+version: '3'
+services:
+  app:
+    build:
+      context: ./
+    container_name: 'phongnv_docker'
+    restart: 'always'
+    network_mode: host
+    expose:
+      - "9003"
+    # extra_hosts:
+    #   - "host.docker.internal:host-gateway"
+    # ports:
+    #   - "80:80"
+    #   - "8000:8000"
+    #   - "9000:9000"
+    #   - "9002:9002"
+    #   - "9003:9003"
+    volumes:
+      - ./src:/var/www/html
+      - ./logs/nginx:/var/log/nginx
+      - ./xdebug:/var/logs/xdebug
