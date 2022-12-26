@@ -2,7 +2,7 @@ server {
     listen 80;
     listen [::]:80;
     server_name account.kol.local;
-    root /var/www/html;
+    root /var/www/html/ssp-seller-landing/public;
  
     add_header X-Frame-Options "SAMEORIGIN";
     add_header X-Content-Type-Options "nosniff";

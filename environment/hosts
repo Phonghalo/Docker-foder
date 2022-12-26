@@ -1,5 +1,11 @@
 127.0.0.1	localhost
-
+127.0.0.1	store.api.local
+127.0.0.1	account.kol.local
+127.0.0.1	fan.local.passio.eco
+127.0.0.1	account.passio.local
+127.0.0.1	service.local.passio.eco
+127.0.0.1	phong.passio.local
+127.0.0.1       test.passio.local
 # The following lines are desirable for IPv6 capable hosts
 ::1     ip6-localhost ip6-loopback
 fe00::0 ip6-localnet
@@ -7,4 +13,3 @@ ff00::0 ip6-mcastprefix
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 
-127.0.0.1 cv-local.ghtk.vn
