@@ -1,0 +1,14 @@
+.styleBox {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: flex-end;
+}
+
+button:focus, button:focus-visible {
+    outline: none !important;
+}
+@media (min-width: 600px) {
+    .MuiTab-root {
+        min-width: 160px;
+    }
+}
